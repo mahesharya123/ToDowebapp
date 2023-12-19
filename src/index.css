@@ -1,13 +1,78 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
+  font-family:"Josefin sans"Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.main_div{width:100%;
+  height: 100vh;
+  background: #000118;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.center_div{
+  width: 60vh;
+  height: 80vh;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  border-radius: 8%;
+
+}
+.pic{
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.heading{
+  color: #2F69FE;
+ 
+ 
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+
+  
+}
+.imgg{
+margin-top: 30px;
+margin-left: 32px;
+margin-right: 30px;
+
+}
+.list{
+  margin-top: 30px;
+margin-left: 32px;
+margin-right: 30px;
+width: 400px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+.btn {
+  margin-top: 30px;
+  border-radius: 25px;
+  margin-left: 32px;
+  margin-right: 30px;
+  width: auto;
+  padding: 20px;
+}
+
+.input[type=text] {
+  border: none;
+  border-bottom: 2px solid red;
 }
